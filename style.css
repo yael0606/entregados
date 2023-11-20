@@ -30,13 +30,26 @@ p {
   background-color: rgb(225, 188, 69);
 }
 
-#footer {
-font-family: 'PT Serif', serif;
-    font-family: 'Sedgwick Ave Display', cursive; 
-}
 
+
+.footer {
+  font-family: 'PT Serif', serif;
+    font-family: 'Sedgwick Ave Display', cursive; 
+  background-color: rgb(225, 188, 69);
+  padding: 20px;
+  text-align: center;
+}
+.footer-logo {
+  width: 100px;
+}
+.footer-links a {
+  color: #666;
+  text-decoration: none;
+  margin: 0 10px;
+}
 @media screen and (max-width:400px){
     nav, .flex-contenedor{
         flex-direction: column;
         align-items: center;
     }
+  }
